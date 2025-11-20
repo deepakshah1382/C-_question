@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int n;
+cout<<"enter number";
+cin>>n;
+int a=3;
+for(int i=1; i<=n; i++)
+{
+// cout<<a<<" ";
+// a=a*2;
+cout<<a<<" ";
+a=a*4;
+}
+}

@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "enter the number";
+    cin >> n;
+    int r = 0;
+    int sum = 0;
+    int re = 0;
+    while (n != 0)
+    {
+        int last = n % 10;
+        n = n / 10;
+        // r = r * 10;
+        r = r + last;
+        sum = r + n;
+        // re=re+last;
+    }
+     //cout<<r<<endl;
+    //cout << sum << endl;
+    //cout<<re<<endl;
+    cout<<sum+r;
+}
